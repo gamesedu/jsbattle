@@ -1,3 +1,40 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [2.4.0](https://github.com/jamro/jsbattle/compare/v2.2.1...v2.4.0) (2019-03-11)
+
+
+### Bug Fixes
+
+* **jsbattle-webpage:** fix blank page after starting a challenge with empty script ([1f924cb](https://github.com/jamro/jsbattle/commit/1f924cb))
+
+
+### Features
+
+* **jsbattle-webpage:** add buildno to the version in footer ([d51b42c](https://github.com/jamro/jsbattle/commit/d51b42c))
+
+
+
+
+
+# [2.3.0](https://github.com/jamro/jsbattle/compare/v2.2.1...v2.3.0) (2019-03-11)
+
+
+### Bug Fixes
+
+* **jsbattle-webpage:** fix blank page after starting a challenge with empty script ([1f924cb](https://github.com/jamro/jsbattle/commit/1f924cb))
+
+
+### Features
+
+* **jsbattle-webpage:** add buildno to the version in footer ([d51b42c](https://github.com/jamro/jsbattle/commit/d51b42c))
+
+
+
+
+
 # Changelog
 All notable changes to this project will be documented in this file.
 
@@ -5,10 +42,37 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [2.2.1] - 2019-03-10
+
+### Fixed
+- version in the footer
+
+## [2.2.0] - 2019-03-10
+
+### Changed
+- simplify release process
+- make challenge battles predictive
+- change default log level to info
+
+### Removed
+- PM2 dependency
+
+## [2.1.11] - 2019-03-09
+
+### Changed
+- documentation improvements (style, linking, etc)
+
+### Security
+- Update Bootstrap to fix security issue CVE-2019-8331
+
+## [2.1.4] - 2018-12-26
 ### Added
 - Share battle link
-- Deployment scripts
+- Challenges section
+- Deployment scripts (see [ansible-role-jsbattle](https://github.com/jamro/ansible-role-jsbattle))
 - Tracking build numbers
+- Introducing LernaJS (refactoring to monorepo)
 - UBD files schemas
 
 ### Changed
